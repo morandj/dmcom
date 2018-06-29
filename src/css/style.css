@@ -1,0 +1,47 @@
+body {
+  background: black;
+  color: antiquewhite;
+  border: 1px dashed red;
+  display: grid;
+
+}
+.navmenu {
+  display: flex;
+  color: blue;
+  background-color: rgb(250, 235, 215);
+  padding: 8px;
+}
+.navitem {
+  display: flex;
+  padding: 8px;
+  margin: 4px;
+  color:  rgb(155, 204, 127);
+  background-color: rgb(250, 235, 255);
+  border: solid 1px;
+  border-radius: 10%;
+  border-color: rgb(235, 235, 215);
+main{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+}
+footer {
+  border: 1px dashed red;
+}
+footer.page-footer {
+  margin-top: 0;
+  padding-top: 20px;
+  background-color: #ee6e73;
+}
+
+.indbg {
+    background-image: url("../img/IMG_2372.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
